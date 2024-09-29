@@ -259,7 +259,7 @@ var unpackage = (function() {
 
     // The project is a Scratch 1 project.
     return {
-      type: 'sb',
+      type: 'sb1',
       data
     };
   };
@@ -401,7 +401,7 @@ var unpackage = (function() {
       }
 
       return {
-        type: 'sb3',
+        type: 'pmp',
         data: await zipToArrayBuffer(newZip)
       };
     }
@@ -420,7 +420,7 @@ var unpackage = (function() {
       }
 
       return {
-        type: 'sb3',
+        type: 'pmp',
         data: await zipToArrayBuffer(newZip)
       };
     }
